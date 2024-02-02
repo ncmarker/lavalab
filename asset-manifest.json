@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/lavalab/static/css/main.b8ea9486.css",
-    "main.js": "/lavalab/static/js/main.a94151f5.js",
+    "main.js": "/lavalab/static/js/main.bb47f1f3.js",
     "static/js/592.335f5a69.chunk.js": "/lavalab/static/js/592.335f5a69.chunk.js",
     "static/media/Satoshi-Medium.otf": "/lavalab/static/media/Satoshi-Medium.e9d34f0493a853cf10c1.otf",
     "index.html": "/lavalab/index.html",
     "main.b8ea9486.css.map": "/lavalab/static/css/main.b8ea9486.css.map",
-    "main.a94151f5.js.map": "/lavalab/static/js/main.a94151f5.js.map",
+    "main.bb47f1f3.js.map": "/lavalab/static/js/main.bb47f1f3.js.map",
     "592.335f5a69.chunk.js.map": "/lavalab/static/js/592.335f5a69.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b8ea9486.css",
-    "static/js/main.a94151f5.js"
+    "static/js/main.bb47f1f3.js"
   ]
 }
