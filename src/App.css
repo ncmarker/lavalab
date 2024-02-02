@@ -1,38 +1,38 @@
+@font-face {
+  font-family: 'Satoshi';
+  src: url('./fonts/Satoshi-Medium.otf');
+}
+
 .App {
-  text-align: center;
+  font-family: 'Helvetica';
+  padding: 75px 70px 0;
+  background-image: radial-gradient(
+    #ebd7fa 0%,
+    #fff 100%
+  );
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h1 {
+  font-weight: 400;
+  font-size: 48px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.back-finish-btn {
+  width: 112px;
+  height: 56px;
+  background-color: #fff;
+  border: 1px solid #c8c8c8;
+  font-weight: 600;
+  font-size: 18px;
+  border-radius: 10px;
+  margin: 75px 25px 100px 0px;
+  padding: 16px 35px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#finish-btn {
+  width: 140px;
+  color: #fff;
+  background-color: #1a1225;
+  border: 1px solid #1a1225;
+  padding: 16px 45px;
 }

@@ -1,0 +1,52 @@
+.card {
+    width: 230px;
+    height: 100px;
+    background-color: #FEF9F8;
+    border: 1px solid #C8C8C8;
+    padding: 25px;
+    border-radius: 9px;
+    display: inline-block;
+    margin-right: 40px;
+    margin-bottom: 40px;
+}
+
+.logo-btn-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 8px;
+}
+
+.card-logo {
+    height: 27px;
+    width: auto;
+    border-radius: 3px;
+}
+
+button {
+    width: 99px;
+    height: 24px;
+    border-radius: 5px;
+    background-color: #ffffff;
+    border: 1px solid #c8c8c8;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+h6 {
+    font-family: 'Helvetica';
+    font-weight: 400;
+    font-size: 18px;
+    margin: 0 0 8px 0;
+    text-align: left;
+}
+
+.card-description {
+    font-family: 'Helvetica';
+    font-weight: 400;
+    font-size: 14px;
+    margin: 0;
+    text-align: left;
+}
