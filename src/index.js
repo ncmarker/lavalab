@@ -5,11 +5,34 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
+
+// if profile pic clicked, user can enter an image address to swap the profile pic
+function changeProfilePic() {
+  const imageUrl = prompt("Enter Profile Picture URL:");
+
+  if (imageUrl !== null && imageUrl !== "") {
+    // makes sure url is https:// or http:// with no spaces
+    const urlPattern = /^(http|https):\/\/\S+$/;
+    
+    if (urlPattern.test(imageUrl)) {
+      document.getElementById('profile-pic').src = imageUrl;
+    } else {
+      alert("Invalid URL. Please enter a valid URL.");
+    }
+  }
+}
+
+
 root.render(
   <React.StrictMode>
     <div id="header">
         <p>hive</p>
-        <img id="profile-pic" src='https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png' alt='profile pic'/>
+        <img 
+          id="profile-pic" 
+          src='https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png' 
+          alt='profile pic'
+          onClick={changeProfilePic}
+        />
       </div>
       <App />
   </React.StrictMode>

@@ -21,4 +21,10 @@ body {
   width: 48px;
   height: 48px;
   border-radius: 50%;
+  border: 1px solid #eeeeee;
+}
+
+#profile-pic:hover {
+  cursor: pointer;
+  border: 1px solid #c8c8c8;
 }

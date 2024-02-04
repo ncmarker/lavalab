@@ -36,3 +36,12 @@ h1 {
   border: 1px solid #1a1225;
   padding: 16px 45px;
 }
+
+#finish-btn:hover {
+  opacity: .85;
+}
+
+.back-finish-btn:hover {
+  cursor: pointer;
+  background-color: #c8c8c8;
+}
